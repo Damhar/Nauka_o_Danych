@@ -1,22 +1,21 @@
-# Nauka o Danych — Laboratorium 1 (wariant 14)
+# Nauka o Danych I — laboratoria (wariant 14)
 
-Analiza wydatków na ochronę zdrowia w USA przypisanych modyfikowalnym czynnikom ryzyka (2016). Python, pandas, Jupyter Notebook i matplotlib.
+Projekty w Pythonie i Jupyter Notebook z wykorzystaniem danych o wydatkach zdrowotnych w USA.
 
-## Pliki
+## Laboratoria
 
-- [Notebook z zapisanymi wynikami](Laboratorium_1/Nauka_o_Danych_Lab1_Wariant14_wyniki.ipynb)
-- [Notebook źródłowy](Laboratorium_1/Nauka_o_Danych_Lab1_Wariant14.ipynb)
-- [Dane CSV](Laboratorium_1/IHME_USA_RISK_SPENDING_2016_Y2020M09D29.csv)
+- **[Laboratorium 1](Laboratorium_1)** — pandas, przetwarzanie danych, filtrowanie, grupowanie, tabele przestawne i wykresy.
+- **[Laboratorium 2](Laboratorium_2)** — średnia, mediana, odchylenie standardowe, wariancja, korelacja i kowariancja. [Sprawozdanie](Laboratorium_2/Sprawozdanie_Lab2_Wariant14.md).
 
-## Uruchomienie na Windows
+## Uruchomienie
 
 ```powershell
-py -m pip install notebook pandas matplotlib
+py -m pip install notebook numpy pandas matplotlib
 py -m notebook
 ```
 
-Otwórz notebook i wybierz **Run → Run All Cells**. Plik CSV musi znajdować się w tym samym folderze co notebook.
+Otwórz wybrany plik `.ipynb` i wybierz **Run → Run All Cells**. Pliki CSV zostały umieszczone w katalogach odpowiednich laboratoriów.
 
-## Dokumenty do dodania
+## Dokumentacja
 
-Wyeksportowany PDF notebooka oraz sprawozdanie w PDF/DOCX należy przesłać osobno do folderu `Laboratorium_1`.
+W repozytorium znajdują się notebooki źródłowe, wykonane notebooki, dane CSV oraz sprawozdanie z laboratorium 2 w formacie Markdown. Eksporty PDF i DOCX można dodać w GitHub przez **Add file → Upload files**.
